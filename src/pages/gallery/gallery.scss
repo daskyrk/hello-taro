@@ -7,8 +7,32 @@
   flex-direction: column;
   align-items: center;
   margin: 10% auto;
-  height: 80%;
-  width: 80%;
+  height: 86%;
+  width: 90%;
+  opacity: 0.5;
+  transition: all 0.2s ease-out;
+
+  .gallery-item-img {
+    transition: transform 0.2s ease-out;
+    transform: scale(0.86);
+  }
+
+  .gallery-item-info {
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+  }
+
+  &.active {
+    opacity: 1;
+
+    .gallery-item-img {
+      transform: scale(1);
+    }
+
+    .gallery-item-info {
+      opacity: 1;
+    }
+  }
 }
 
 .gallery-item-img {
@@ -26,7 +50,6 @@
 
 .gallery-item-title {
   font-weight: bold;
-  line-height: 60rpx;
   font-size: 40rpx;
   margin-top: 40rpx;
   color: #fff;
