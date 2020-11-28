@@ -1,0 +1,52 @@
+.login {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 360rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  z-index: 999;
+  background-color: $login-bg;
+  border-radius: $radius-lg $radius-lg 0 0;
+}
+
+.login-line {
+  margin-top: 8rpx;
+  opacity: 0.7;
+  background-color: $lightgray;
+  height: 6rpx;
+  width: 140rpx;
+  border-radius: 20rpx;
+}
+
+.login-tip {
+  color: $white;
+  margin-top: 16rpx;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+  padding: 8rpx 80rpx;
+  font-weight: 300;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  background-color: $weixin-green;
+  color: $white;
+  border-radius: 200rpx;
+
+  .iconfont {
+    font-size: 48rpx;
+    margin-right: 16rpx;
+  }
+}
+
+.login-agreement {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  color: $desc-color;
+  opacity: 0.5;
+  font-size: 20rpx;
+}

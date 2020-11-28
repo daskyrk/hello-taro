@@ -1,3 +1,21 @@
 .profile {
-  flex: 1;
+  width: 86%;
+  margin: 50rpx auto;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-welcome {
+  color: $white;
+  font-size: 70rpx;
+  line-height: 1.2;
+}
+
+.profile-avatar {
+  border-radius: 100%;
+  width: 220rpx;
+  height: 220rpx;
 }

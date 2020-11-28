@@ -1,5 +1,4 @@
 import { Component } from 'react'
-import './styles/iconfont.scss'
 import './app.scss'
 
 class App extends Component {

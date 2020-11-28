@@ -1,5 +1,7 @@
+const path = require('path');
+
 const config = {
-  projectName: 'hello-taro',
+  projectName: "BBLan's store",
   date: '2020-11-25',
   designWidth: 750,
   deviceRatio: {
@@ -9,6 +11,14 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: `dist/${process.env.TARO_ENV}`,
+  sass: {
+    resource: [
+      path.resolve(__dirname, '..', 'src/styles/_color.scss'),
+      path.resolve(__dirname, '..', 'src/styles/_variable.scss'),
+      path.resolve(__dirname, '..', 'src/styles/iconfont.scss'),
+      path.resolve(__dirname, '..', 'src/styles/util.scss'),
+    ]
+  },
   plugins: [],
   defineConstants: {
   },

@@ -2,7 +2,7 @@
   display: flex;
   min-height: 100vh;
   position: relative;
-  background-color: #121213;
+  background-color: $black-bg;
 }
 
 .main {
@@ -21,23 +21,27 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #010001;
+  background-color: $tab-bg;
   padding-bottom: 20rpx;
   border-radius: 70rpx 70rpx 0 0;
+
+  .iconfont {
+    font-size: 32rpx;
+  }
 
   .tab-bar-item {
     display: inline-flex;
     flex-direction: column;
     text-align: center;
-    border-radius: 90rpx;
+    border-radius: $radius-lg;
     padding: 10rpx 50rpx;
     font-size: 30rpx;
-    color: #4f4e4f;
+    color: $tab-text-color;
   }
 
   .active {
-    background-color: #fffeff;
-    color: #121213;
+    background-color: $white;
+    color: $black-bg;
   }
 
   .iconfont {

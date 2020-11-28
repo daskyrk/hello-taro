@@ -1,9 +1,8 @@
-import { Swiper, SwiperItem, Text, View, Image } from "@tarojs/components"
-import React from "react"
-import './category.scss'
+import { Image, View } from "@tarojs/components";
+import React from "react";
+import './category.scss';
 
 export default () => {
-  const [active, setActive] = React.useState('');
   const [list, setList] = React.useState([
     {
       img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1606415907407&di=1eca68bc8bad9e8096149e119a9f7a26&imgtype=0&src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202001%2F02%2F20200102230942_lstzd.thumb.400_0.jpg',
