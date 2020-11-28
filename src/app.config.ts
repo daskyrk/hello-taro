@@ -1,4 +1,4 @@
-const config = require('./config')
+import config from "./_config";
 
 export default {
   pages: [
