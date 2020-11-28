@@ -1,4 +1,4 @@
-import config from "./_config";
+const env = require('./_env')
 
 export default {
   pages: [
@@ -8,7 +8,7 @@ export default {
   window: {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#121213',
-    navigationBarTitleText: config.siteName,
+    navigationBarTitleText: env.siteName,
     navigationBarTextStyle: 'white',
   }
 }

@@ -1,5 +1,5 @@
 import Taro from "@tarojs/taro";
-import { Swiper, SwiperItem, Text, View, Image } from "@tarojs/components"
+import { Swiper, SwiperItem, View, Image } from "@tarojs/components"
 import React from "react"
 import { useData } from "../../stores/site";
 
@@ -8,7 +8,6 @@ import './gallery.scss'
 export default () => {
   const [active, setActive] = React.useState(0);
   const pageData = useData(s => s.pages.gallery);
-  console.log('pageData:', pageData);
   const list = pageData && pageData.list || []
 
   const goToDetail = (item: SITE.GalleryItem) => {
