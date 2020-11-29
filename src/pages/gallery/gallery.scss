@@ -12,12 +12,12 @@
   opacity: 0.5;
   transition: all 0.2s ease-out;
 
-  .gallery-item-img {
+  .item-img {
     transition: transform 0.2s ease-out;
     transform: scale(0.86);
   }
 
-  .gallery-item-info {
+  .item-info {
     transition: opacity 0.2s ease-out;
     opacity: 0;
   }
@@ -25,39 +25,39 @@
   &.active {
     opacity: 1;
 
-    .gallery-item-img {
+    .item-img {
       transform: scale(1);
     }
 
-    .gallery-item-info {
+    .item-info {
       opacity: 1;
     }
   }
-}
 
-.gallery-item-img {
-  flex: 1;
-  border-radius: 60rpx;
-  width: 100%;
-}
+  .item-img {
+    flex: 1;
+    border-radius: 60rpx;
+    width: 100%;
+  }
 
-.gallery-item-info {
-  margin-left: 40rpx;
-  text-align: left;
-  width: 100%;
-  overflow: hidden;
-}
+  .item-info {
+    margin-left: 40rpx;
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+  }
 
-.gallery-item-title {
-  font-weight: bold;
-  font-size: 40rpx;
-  font-family: 'Luam-Light';
-  margin-top: 40rpx;
-  color: $white;
-}
+  .item-title {
+    font-weight: bold;
+    font-size: 40rpx;
+    font-family: 'Luam-Light';
+    margin-top: 40rpx;
+    color: $white;
+  }
 
-.gallery-item-desc {
-  color: $desc-color;
-  line-height: 40rpx;
-  font-size: 26rpx;
+  .item-desc {
+    color: $desc-color;
+    line-height: 40rpx;
+    font-size: 26rpx;
+  }
 }

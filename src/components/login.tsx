@@ -1,13 +1,14 @@
 import { Button, View } from "@tarojs/components";
 import Taro from "@tarojs/taro";
 import React from "react";
+import Slide from "./slide";
 import './login.scss';
 
 interface IProps {
   onLogin(userInfo: Taro.UserInfo)
 }
 export default ({ onLogin }: IProps) => {
-  const [visible, setVisible] = React.useState(false);
+  const [visible, setVisible] = React.useState(true);
 
   React.useEffect(() => {
     Taro.getSetting({
@@ -43,8 +44,7 @@ export default ({ onLogin }: IProps) => {
   }
 
   return (
-    <View className="login">
-      <View className='login-line'></View>
+    <Slide className="login">
       <View className='login-tip'>请先登录</View>
       <View className=''>
         <Button className='login-button' open-type="getUserInfo" onGetUserInfo={res => onGetUserInfo(res.detail.userInfo)} onClick={() => setVisible(false)}>
@@ -52,6 +52,6 @@ export default ({ onLogin }: IProps) => {
         </Button>
       </View>
       <View className='login-agreement'>使用此功能表明您同意用户协议（笑）</View>
-    </View >
+    </Slide>
   )
 }

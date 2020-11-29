@@ -28,11 +28,11 @@ export default () => {
           return (
             <SwiperItem key={i}>
               <View className={`gallery-item ${i === active ? 'active' : ''}`} onClick={() => goToDetail(item)}>
-                <Image className='gallery-item-img' mode='aspectFill' src={item.img} />
-                <View className='gallery-item-info gallery-item-title'>
+                <Image className='item-img' mode='aspectFill' src={item.img} />
+                <View className='item-info item-title'>
                   {item.title}
                 </View>
-                <View className='gallery-item-info gallery-item-desc'>
+                <View className='item-info item-desc'>
                   {item.desc}
                 </View>
               </View>

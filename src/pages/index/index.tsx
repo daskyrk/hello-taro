@@ -4,7 +4,7 @@ import { View } from '@tarojs/components'
 import Gallery from '../gallery/gallery';
 import Category from '../category/category';
 import Profile from '../profile/profile';
-import Login from "../login/login";
+import Login from "../../components/login";
 import './index.scss'
 
 enum TabKey {

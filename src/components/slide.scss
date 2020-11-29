@@ -1,0 +1,35 @@
+.bottom-slide {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 360rpx;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  z-index: 9;
+  background-color: $login-bg;
+  border-radius: $radius-lg $radius-lg 0 0;
+  transition: height 0.2s ease-out;
+}
+
+.bottom-slide-line {
+  height: 6rpx;
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: 140rpx;
+  border-radius: 20rpx;
+  margin-top: 12rpx;
+  opacity: 0.7;
+  background-color: $lightgray;
+}
+
+.bottom-slide-content {
+  margin-top: 30rpx;
+  padding: 0 40rpx;
+  color: $white;
+
+  >view {
+    width: 100%;
+  }
+}

@@ -56,6 +56,25 @@ export default {
           img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1606415975791&di=9c7010a130066766086b42c83cbd0a22&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fw%3D580%2Fsign%3D378b472a4a166d223877159c76220945%2F48c7472c11dfa9ece86396f66bd0f703908fc193.jpg',
         },
       ]
+    },
+    "galleryDetail": {
+      list: [
+        {
+          img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1606415907407&di=1eca68bc8bad9e8096149e119a9f7a26&imgtype=0&src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202001%2F02%2F20200102230942_lstzd.thumb.400_0.jpg',
+          title: '大衣',
+          desc: '这是一款非常好看的衣服，很适合追求时尚的你',
+        },
+        {
+          img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1606415907407&di=6cd7a9feef86f4478addf371d9c45095&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201611%2F22%2F20161122085410_ZdQWw.thumb.400_0.jpeg',
+          title: '围巾',
+          desc: '冬天需要一款既保暖又有风度的围巾，试试这款吧',
+        },
+        {
+          img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1606415907405&di=b369a7d1a8f30cda66c94ff28d3e360f&imgtype=0&src=http%3A%2F%2Fhbimg.huabanimg.com%2F231001c63484ce40ddaad5dcd6affe89754ce0b9137e4c-P0V8qQ_fw658',
+          title: '羽绒服',
+          desc: '不知道该怎么描述了，反正就是很好',
+        },
+      ]
     }
   }
 }

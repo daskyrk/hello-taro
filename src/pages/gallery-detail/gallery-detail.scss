@@ -1,0 +1,32 @@
+.gallery-detail {
+
+  .gallery-detail-swiper {
+    background-color: $black-bg;
+    position: fixed;
+    height: calc(100% - 380rpx);
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 50rpx;
+    padding-bottom: 50%;
+    transition: height 0.2s ease-out;
+  }
+
+  .img-container {
+    text-align: center;
+  }
+
+  .item-img {
+    height: 100%;
+  }
+
+  .detail-info {
+    height: 200rpx;
+    width: 90%;
+  }
+
+  .info-count {
+    display: inline-block;
+  }
+
+}

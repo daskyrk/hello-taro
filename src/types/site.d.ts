@@ -6,6 +6,9 @@ declare namespace SITE {
       },
       category: {
         list: CategoryItem[]
+      },
+      galleryDetail: {
+        list: GalleryItemDetail[]
       }
     }
   }
@@ -23,5 +26,6 @@ declare namespace SITE {
   interface GalleryItemDetail {
     title: string,
     desc: string,
+    img: string,
   }
 }

@@ -40,7 +40,7 @@ export default () => {
     <View className="profile">
       <View className="profile-info flex-box">
         <View className='profile-welcome'>
-          <View>欢迎，</View>
+          <View>{getWelcomeForSpecial(userInfo)}，</View>
           <View>{userInfo.nickName}</View>
         </View>
         <Image className='profile-avatar' mode='aspectFill' src={userInfo.avatarUrl} />

@@ -76,36 +76,41 @@
 }
 
 // font size
+.fz8 {
+  font-size: 16rpx;
+}
+
+.fz10 {
+  font-size: 20rpx;
+}
+
 .fz12 {
-  font-size: 12px;
+  font-size: 24rpx;
+}
+
+.fz14 {
+  font-size: 28rpx;
 }
 
 .fz16 {
-  font-size: 16px;
+  font-size: 32rpx;
+}
+
+.fz18 {
+  font-size: 36rpx;
 }
 
 .fz20 {
-  font-size: 20px;
+  font-size: 40rpx;
 }
 
 .fz24 {
-  font-size: 24px;
+  font-size: 48rpx;
 }
 
-.fz30 {
-  font-size: 30px;
-}
-
-.fz36 {
-  font-size: 36px;
-}
-
-.fz42 {
-  font-size: 42px;
-}
-
-.fz48 {
-  font-size: 48px;
+// color
+.color-desc {
+  color: $desc-color;
 }
 
 // font weight
